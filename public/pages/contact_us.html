@@ -1,0 +1,24 @@
+<div class="row container col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+    <h2>Contact us</h2>
+    <form role="form" ng-submit="contactUs(contact)">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" ng-model="contact.name" ng-required="true">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" ng-model="contact.email" ng-required="true">
+            <label for="message">Text Area</label>
+            <textarea class="form-control" rows="3" id="message" ng-model="contact.message" ng-required="true"></textarea>
+        </div>
+        <input type="submit" class="btn btn-info btn-lg black-button" value="Send">
+        <img src="images/check56.png" class="navbar-button checkMark" ng-show="visual.showMessageSent"/></a>
+    </form>
+    <div class="row" ng-show="visual.showSpinner">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+</div>
+
+

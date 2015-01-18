@@ -1,0 +1,73 @@
+.blk 
+{
+    display: block;
+}
+
+.disabled 
+{
+    opacity: 1 !important;
+}
+
+html,body{height:100%;}
+
+.container {
+    height:85%;
+}
+
+div {
+  border: solid 0px;
+}
+
+.biggerHeight {
+  height: 50%;
+}
+
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.top10 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.autoMargin {
+  margin: 20% 2.5% 20% 2.5%;
+}
+
+div 
+{
+
+}
+
+.answerBtn 
+{
+    width: 100%;
+    margin: 10px;
+}
+
+.navbar-inverse.black {
+    background-color: #141414;
+}
+
+.checkMark {
+    height: 35px;
+    
+}
+
+.bold {
+    font-weight: bold;   
+}
+
+.some-margins {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.black-button {
+    background-color: black !important;
+    border-color: black !important;
+}

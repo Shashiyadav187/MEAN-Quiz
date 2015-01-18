@@ -1,0 +1,22 @@
+<div class="row container col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+    <form role="form" ng-submit="startGame()">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Name" ng-model="player.name">
+        </div>
+
+        <div class="btn-group">
+            <p class=" bold ">Number of questions this round:</p>
+            <button type="button" class="btn btn-default" ng-click="setNumberOfQuestions(5)">5</button>
+            <button type="button" class="btn btn-default" ng-click="setNumberOfQuestions(10)">10</button>
+            <button type="button" class="btn btn-default" ng-click="setNumberOfQuestions(15)">15</button>
+        </div>
+        <div>
+            <a href="#/main " class="btn btn-info btn-lg some-margins black-button" ng-click='startGame()' ng-disabled="!numberOfQuestions || !player.name ">START</a>
+        </div>
+    </form>
+</div>
+
+
+
+
