@@ -6,11 +6,15 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoskin = require('mongoskin');
 //**********YOUR DB BELOW************
-//var db = mongoskin.db('mongodb://@localhost:27017/mydb', {native_parser:true});
+//*** Connect to your database; I used MongoDB hosted on MongoLab
+var db = mongoskin.db('mongodb://user:password@********.mongolab.com:49170/maindb', {native_parser:true});
 var routes = require('./routes/index');
 
 var app = express();
 
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'html');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
