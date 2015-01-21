@@ -1,3 +1,5 @@
 # MEAN-Quiz
 Quiz game created using MEAN stack. 
-The app contains a collection of geography questions.
+
+See a live demo here: http://mean-quiz.herokuapp.com/
+
