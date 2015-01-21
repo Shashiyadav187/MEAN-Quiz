@@ -77,7 +77,7 @@ router.post('/postContactUs', function(req, res) {
 
 router.get('/getHighScore', function(req, res) {
     var db = req.db;
-    db.collection('score').find({},{limit:25, sort: [['totalScore',-1]]}).toArray(function(err, results){
+    db.collection('score').find({},{limit:10, sort: [['totalScore',-1]]}).toArray(function(err, results){
         res.send(results);
     });
 });

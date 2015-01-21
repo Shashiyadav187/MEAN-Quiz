@@ -6,7 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoskin = require('mongoskin');
 //**********YOUR DB BELOW************
-var db = mongoskin.db('mongodb://@localhost:27017/mydb', {native_parser:true});
+//var db = mongoskin.db('mongodb://@localhost:27017/mydb', {native_parser:true});
+var db = mongoskin.db('mongodb://rococtz:nodejs2015@ds049170.mongolab.com:49170/maindb', {native_parser:true});
 var routes = require('./routes/index');
 
 var app = express();
