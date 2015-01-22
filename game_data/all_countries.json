@@ -1,0 +1,196 @@
+{ "_id" : 0, "subject" : "capitals", "q" : "What is the capital city of Netherlands?", "a" : "Amsterdam", "v1" : "Hague", "v2" : "Copenhagen", "v3" : "Helsinki" }
+{ "_id" : 1, "subject" : "capitals", "q" : "What is the capital city of Albania?", "a" : "Tirana", "v1" : "Skopje", "v2" : "Teheran", "v3" : "Yerevan" }
+{ "_id" : 2, "subject" : "capitals", "q" : "What is the capital city of Andorra?", "a" : "Andorra la Vella", "v1" : "Andora City", "v2" : "Valetta", "v3" : "San Marino" }
+{ "_id" : 3, "subject" : "capitals", "q" : "What is the capital city of Austria?", "a" : "Vienna", "v1" : "Berlin", "v2" : "Strasbourg", "v3" : "Innsbruck" }
+{ "_id" : 4, "subject" : "capitals", "q" : "What is the capital city of Belarus?", "a" : "Minsk", "v1" : "Kiev", "v2" : "Chisinau", "v3" : "Tiraspol" }
+{ "_id" : 5, "subject" : "capitals", "q" : "What is the capital city of Belgium?", "a" : "Brussels", "v1" : "Strasbourg", "v2" : "Luxembourg", "v3" : "Amsterdam" }
+{ "_id" : 6, "subject" : "capitals", "q" : "What is the capital city of Bosnia and Herzegovina?", "a" : "Sarajevo", "v1" : "Podgorica", "v2" : "Belgrade", "v3" : "Pristina" }
+{ "_id" : 7, "subject" : "capitals", "q" : "What is the capital city of Bulgaria?", "a" : "Sofia", "v1" : "Zagreb", "v2" : "Varna", "v3" : "Budapest" }
+{ "_id" : 8, "subject" : "capitals", "q" : "What is the capital city of Croatia?", "a" : "Zagreb", "v1" : "Tirana", "v2" : "Skopje", "v3" : "Bratislava" }
+{ "_id" : 9, "subject" : "capitals", "q" : "What is the capital city of Czech Republic?", "a" : "Prague", "v1" : "Bratislava", "v2" : "Zagreb", "v3" : "Ljubljana" }
+{ "_id" : 10, "subject" : "capitals", "q" : "What is the capital city of Denmark?", "a" : "Copenhagen", "v1" : "Hague", "v2" : "Zurich", "v3" : "Berna" }
+{ "_id" : 11, "subject" : "capitals", "q" : "What is the capital city of Estonia?", "a" : "Tallinn", "v1" : "Minsk", "v2" : "Helsinki", "v3" : "Reykjavik" }
+{ "_id" : 12, "subject" : "capitals", "q" : "What is the capital city of Faroe Islands?", "a" : "Torshavn", "v1" : "Reykjavik", "v2" : "Kirkwall", "v3" : "Shetland" }
+{ "_id" : 13, "subject" : "capitals", "q" : "What is the capital city of Finland?", "a" : "Helsinki", "v1" : "Reykjavik", "v2" : "Stockholm", "v3" : "Oslo" }
+{ "_id" : 14, "subject" : "capitals", "q" : "What is the capital city of Germany?", "a" : "Berlin", "v1" : "Vienna", "v2" : "Hambourg", "v3" : "Rotterdam" }
+{ "_id" : 15, "subject" : "capitals", "q" : "What is the capital city of Greece?", "a" : "Athens", "v1" : "Rhodes", "v2" : "Crete", "v3" : "Tirana" }
+{ "_id" : 16, "subject" : "capitals", "q" : "What is the capital city of Hungary?", "a" : "Budapest", "v1" : "Bucharest", "v2" : "Belgrade", "v3" : "Bratislava" }
+{ "_id" : 17, "subject" : "capitals", "q" : "What is the capital city of Iceland?", "a" : "Reykjavik", "v1" : "Helsinki", "v2" : "Greenland", "v3" : "Auckland" }
+{ "_id" : 18, "subject" : "capitals", "q" : "What is the capital city of Ireland?", "a" : "Dublin", "v1" : "Belfast", "v2" : "Edinburgh", "v3" : "London" }
+{ "_id" : 19, "subject" : "capitals", "q" : "What is the capital city of Italy?", "a" : "Rome", "v1" : "Milan", "v2" : "Sicily", "v3" : "Madrid" }
+{ "_id" : 20, "subject" : "capitals", "q" : "What is the capital city of Kosovo?", "a" : "Pristina", "v1" : "Belgrade", "v2" : "Sarajevo", "v3" : "Podgorica" }
+{ "_id" : 21, "subject" : "capitals", "q" : "What is the capital city of Latvia?", "a" : "Ryga", "v1" : "Vaduz", "v2" : "Valletta", "v3" : "Vilnius" }
+{ "_id" : 22, "subject" : "capitals", "q" : "What is the capital city of Liechtenstein?", "a" : "Vaduz", "v1" : "Valetta", "v2" : "Luxembourg", "v3" : "Brussels" }
+{ "_id" : 23, "subject" : "capitals", "q" : "What is the capital city of Lithuania?", "a" : "Vilnius", "v1" : "Vaduz", "v2" : "Valetta", "v3" : "Helsinki" }
+{ "_id" : 24, "subject" : "capitals", "q" : "What is the capital city of Luxembourg?", "a" : "Luxembourg", "v1" : "Vaduz", "v2" : "Brussels", "v3" : "Strasbourg" }
+{ "_id" : 25, "subject" : "capitals", "q" : "What is the capital city of Macedonia?", "a" : "Skopje", "v1" : "Sarajevo", "v2" : "Tirana", "v3" : "Athens" }
+{ "_id" : 26, "subject" : "capitals", "q" : "What is the capital city of Malta?", "a" : "Valletta", "v1" : "Vaduz", "v2" : "Vilnius", "v3" : "Nicosia" }
+{ "_id" : 27, "subject" : "capitals", "q" : "What is the capital city of Moldova?", "a" : "Chisinau", "v1" : "Bucharest", "v2" : "Kiev", "v3" : "Warsaw" }
+{ "_id" : 28, "subject" : "capitals", "q" : "What is the capital city of Monaco?", "a" : "Monaco", "v1" : "San Marino", "v2" : "St Tropez", "v3" : "Andorra la Vella" }
+{ "_id" : 29, "subject" : "capitals", "q" : "What is the capital city of Montenegro?", "a" : "Podgorica", "v1" : "Pristina", "v2" : "Sarajevo", "v3" : "Belgrade" }
+{ "_id" : 30, "subject" : "capitals", "q" : "What is the capital city of Norway?", "a" : "Oslo", "v1" : "Stockholm", "v2" : "Amsterdam", "v3" : "Helsinki" }
+{ "_id" : 31, "subject" : "capitals", "q" : "What is the capital city of Poland?", "a" : "Warsaw", "v1" : "Krakow", "v2" : "Bratislava", "v3" : "Prague" }
+{ "_id" : 32, "subject" : "capitals", "q" : "What is the capital city of Portugal?", "a" : "Lisbon", "v1" : "Madrid", "v2" : "Porto", "v3" : "Valencia" }
+{ "_id" : 33, "subject" : "capitals", "q" : "What is the capital city of Romania?", "a" : "Bucharest", "v1" : "Budapest", "v2" : "Sofia", "v3" : "Kiev" }
+{ "_id" : 34, "subject" : "capitals", "q" : "What is the capital city of Russia?", "a" : "Moscow", "v1" : "Sankt Petersburg", "v2" : "Kiev", "v3" : "Chisinau" }
+{ "_id" : 35, "subject" : "capitals", "q" : "What is the capital city of San Marino?", "a" : "San Marino", "v1" : "Monaco", "v2" : "Vatican", "v3" : "Brussels" }
+{ "_id" : 36, "subject" : "capitals", "q" : "What is the capital city of Serbia?", "a" : "Belgrade", "v1" : "Sarajevo", "v2" : "Ljubljana", "v3" : "Bratislava" }
+{ "_id" : 37, "subject" : "capitals", "q" : "What is the capital city of Slovakia?", "a" : "Bratislava", "v1" : "Prague", "v2" : "Belgrade", "v3" : "Warsaw" }
+{ "_id" : 38, "subject" : "capitals", "q" : "What is the capital city of Slovenia?", "a" : "Ljubljana", "v1" : "Bratislava", "v2" : "Podgorica", "v3" : "Zagreb" }
+{ "_id" : 39, "subject" : "capitals", "q" : "What is the capital city of Spain?", "a" : "Madrid", "v1" : "Valencia", "v2" : "Rome", "v3" : "Lisbon" }
+{ "_id" : 40, "subject" : "capitals", "q" : "What is the capital city of Sweden?", "a" : "Stockholm", "v1" : "Oslo", "v2" : "Helsinki", "v3" : "Copenhagen" }
+{ "_id" : 41, "subject" : "capitals", "q" : "What is the capital city of Switzerland?", "a" : "Bern", "v1" : "Zurich", "v2" : "Berlin", "v3" : "Vienna" }
+{ "_id" : 42, "subject" : "capitals", "q" : "What is the capital city of Ukraine?", "a" : "Kiev", "v1" : "Bucharest", "v2" : "Minsk", "v3" : "Moscow" }
+{ "_id" : 43, "subject" : "capitals", "q" : "What is the capital city of United Kingdom?", "a" : "London", "v1" : "Belfast", "v2" : "Edinburgh", "v3" : "Cambridge" }
+{ "_id" : 44, "subject" : "capitals", "q" : "What is the capital city of Afghanistan?", "a" : "Kabul", "v1" : "Baghdad", "v2" : "Tripoli", "v3" : "Kandahar" }
+{ "_id" : 45, "subject" : "capitals", "q" : "What is the capital city of Algeria?", "a" : "Algiers", "v1" : "Tunis", "v2" : "Cairo", "v3" : "Rabat" }
+{ "_id" : 46, "subject" : "capitals", "q" : "What is the capital city of Angola?", "a" : "Luanda", "v1" : "Nassau", "v2" : "Gaborone", "v3" : "Windhoek" }
+{ "_id" : 47, "subject" : "capitals", "q" : "What is the capital city of Antigua and Barbuda?", "a" : "Saint John's", "v1" : "Dhaka", "v2" : "Dhaka", "v3" : "Praia" }
+{ "_id" : 48, "subject" : "capitals", "q" : "What is the capital city of Argentina?", "a" : "Buenos Aires", "v1" : "La Paz", "v2" : "Bogota", "v3" : "Montevideo" }
+{ "_id" : 49, "subject" : "capitals", "q" : "What is the capital city of Armenia?", "a" : "Yerevan", "v1" : "Tehran", "v2" : "Tbilisi", "v3" : "Donetsk" }
+{ "_id" : 50, "subject" : "capitals", "q" : "What is the capital city of Australia?", "a" : "Canberra", "v1" : "Melbourne", "v2" : "Sydney", "v3" : "Perth" }
+{ "_id" : 51, "subject" : "capitals", "q" : "What is the capital city of Azerbaijan?", "a" : "Baku", "v1" : "Yerevan", "v2" : "Tehran", "v3" : "Kabul" }
+{ "_id" : 52, "subject" : "capitals", "q" : "What is the capital city of The Bahamas?", "a" : "Nassau", "v1" : "Manama", "v2" : "Bridgetown", "v3" : "Kingston" }
+{ "_id" : 53, "subject" : "capitals", "q" : "What is the capital city of Bahrain?", "a" : "Manama", "v1" : "Sanaa", "v2" : "Abu Dhabi", "v3" : "Rabat" }
+{ "_id" : 54, "subject" : "capitals", "q" : "What is the capital city of Bangladesh?", "a" : "Dhaka", "v1" : "Hyderabad", "v2" : "Karachi", "v3" : "Mumbai" }
+{ "_id" : 55, "subject" : "capitals", "q" : "What is the capital city of Barbados?", "a" : "Bridgetown", "v1" : "Kingston", "v2" : "Saint John's", "v3" : "Port-of-Spain" }
+{ "_id" : 56, "subject" : "capitals", "q" : "What is the capital city of Belize?", "a" : "Belmopan", "v1" : "Guatemala", "v2" : "Panama", "v3" : "Port-au-Prince" }
+{ "_id" : 57, "subject" : "capitals", "q" : "What is the capital city of Benin?", "a" : "Porto-Novo", "v1" : "Lome", "v2" : "Lagos", "v3" : "Accra" }
+{ "_id" : 58, "subject" : "capitals", "q" : "What is the capital city of Bhutan?", "a" : "Thimphu", "v1" : "Kathmandu", "v2" : "Llasa", "v3" : "Patna" }
+{ "_id" : 59, "subject" : "capitals", "q" : "What is the capital city of Bolivia?", "a" : "La Paz", "v1" : "Bogota", "v2" : "Buneos Aires", "v3" : "Montevideo" }
+{ "_id" : 60, "subject" : "capitals", "q" : "What is the capital city of Botswana?", "a" : "Gaborone", "v1" : "Kinsasha", "v2" : "Kigali", "v3" : "Accra" }
+{ "_id" : 61, "subject" : "capitals", "q" : "What is the capital city of Brazil?", "a" : "Brasilia", "v1" : "Rio de Janeiro", "v2" : "Sao Paolo", "v3" : "Lisbon" }
+{ "_id" : 62, "subject" : "capitals", "q" : "What is the capital city of Brunei?", "a" : "Bandar Seri Begawan", "v1" : "Putrajaya", "v2" : "Kuala Lumpur", "v3" : "Bujumbura" }
+{ "_id" : 63, "subject" : "capitals", "q" : "What is the capital city of Burkina Faso?", "a" : "Ouagadougou", "v1" : "Bandar Seri Begawan", "v2" : "Dar es Salaam", "v3" : "N'Djamena" }
+{ "_id" : 64, "subject" : "capitals", "q" : "What is the capital city of Burundi?", "a" : "Bujumbura", "v1" : "Brazzaville", "v2" : "Lome", "v3" : "Kingston" }
+{ "_id" : 65, "subject" : "capitals", "q" : "What is the capital city of Cambodia?", "a" : "Phnom Penh", "v1" : "Hanoi", "v2" : "Bangkok", "v3" : "Vientiane" }
+{ "_id" : 66, "subject" : "capitals", "q" : "What is the capital city of Cameroon?", "a" : "Yaounde", "v1" : "Kigali", "v2" : "Lome", "v3" : "Bujumbura" }
+{ "_id" : 67, "subject" : "capitals", "q" : "What is the capital city of Canada?", "a" : "Ottawa", "v1" : "Quebec", "v2" : "Vancouver", "v3" : "Washington" }
+{ "_id" : 68, "subject" : "capitals", "q" : "What is the capital city of Cape Verde?", "a" : "Praia", "v1" : "Accra", "v2" : "Windhoek", "v3" : "Santa Cruz de Tenerife" }
+{ "_id" : 69, "subject" : "capitals", "q" : "What is the capital city of Central African Republic?", "a" : "Bangui", "v1" : "Nouakchott", "v2" : "N'Djamena", "v3" : "Belmopan" }
+{ "_id" : 70, "subject" : "capitals", "q" : "What is the capital city of Chad?", "a" : "N'Djamena", "v1" : "Bandar Seri Begawan", "v2" : "Patna", "v3" : "Accra" }
+{ "_id" : 71, "subject" : "capitals", "q" : "What is the capital city of Chile?", "a" : "Santiago", "v1" : "Lima", "v2" : "Caracas", "v3" : "Bogota" }
+{ "_id" : 72, "subject" : "capitals", "q" : "What is the capital city of China?", "a" : "Beijing", "v1" : "Shanghai", "v2" : "Hong-Kong", "v3" : "Taipei" }
+{ "_id" : 73, "subject" : "capitals", "q" : "What is the capital city of Colombia?", "a" : "Bogota", "v1" : "Caracas", "v2" : "Montevideo", "v3" : "Brasilia" }
+{ "_id" : 74, "subject" : "capitals", "q" : "What is the capital city of Comoros?", "a" : "Moroni", "v1" : "Port Louis", "v2" : "Antananarivo", "v3" : "Mbabane" }
+{ "_id" : 75, "subject" : "capitals", "q" : "What is the capital city of Republic of the Congo?", "a" : "Brazzaville", "v1" : "Kigali", "v2" : "Kinshasa", "v3" : "Lilongwe" }
+{ "_id" : 76, "subject" : "capitals", "q" : "What is the capital city of Democratic Republic of the Congo?", "a" : "Kinshasa", "v1" : "Kigali", "v2" : "Brazzaville", "v3" : "Mbabane" }
+{ "_id" : 77, "subject" : "capitals", "q" : "What is the capital city of Costa Rica?", "a" : "San Jose", "v1" : "Managua", "v2" : "San Juan", "v3" : "Havana" }
+{ "_id" : 78, "subject" : "capitals", "q" : "What is the capital city of Cote d'Ivoire?", "a" : "Yamoussoukro", "v1" : "Accra", "v2" : "N'Djamena", "v3" : "Asmara" }
+{ "_id" : 79, "subject" : "capitals", "q" : "What is the capital city of Cuba?", "a" : "Havana", "v1" : "San Juan", "v2" : "Caracas", "v3" : "Port Louis" }
+{ "_id" : 80, "subject" : "capitals", "q" : "What is the capital city of Cyprus?", "a" : "Nicosia", "v1" : "Valletta", "v2" : "Ankara", "v3" : "Rhodos" }
+{ "_id" : 81, "subject" : "capitals", "q" : "What is the capital city of Djibouti?", "a" : "Djibouti", "v1" : "Mogadishu", "v2" : "Roseau", "v3" : "Malabo" }
+{ "_id" : 82, "subject" : "capitals", "q" : "What is the capital city of Dominica?", "a" : "Roseau", "v1" : "Moroni", "v2" : "Suva", "v3" : "Libreville" }
+{ "_id" : 83, "subject" : "capitals", "q" : "What is the capital city of Dominican Republic?", "a" : "Santo Domingo", "v1" : "San Juan", "v2" : "Caracas", "v3" : "Astana" }
+{ "_id" : 84, "subject" : "capitals", "q" : "What is the capital city of East Timor (Timor-Leste)?", "a" : "Dili", "v1" : "Quito", "v2" : "Nairobi", "v3" : "Male" }
+{ "_id" : 85, "subject" : "capitals", "q" : "What is the capital city of Ecuador?", "a" : "Quito", "v1" : "Valletta", "v2" : "Provence", "v3" : "Bamako" }
+{ "_id" : 86, "subject" : "capitals", "q" : "What is the capital city of Egypt?", "a" : "Cairo", "v1" : "Rabat", "v2" : "Tripoli", "v3" : "Damascus" }
+{ "_id" : 87, "subject" : "capitals", "q" : "What is the capital city of El Salvador?", "a" : "San Salvador", "v1" : "Roseau", "v2" : "Banjul", "v3" : "San Jose" }
+{ "_id" : 88, "subject" : "capitals", "q" : "What is the capital city of Equatorial Guinea?", "a" : "Malabo", "v1" : "Conakry", "v2" : "Maseru", "v3" : "Managua" }
+{ "_id" : 89, "subject" : "capitals", "q" : "What is the capital city of Eritrea?", "a" : "Asmara", "v1" : "Port-au-Prince", "v2" : "Libreville", "v3" : "Bishkek" }
+{ "_id" : 90, "subject" : "capitals", "q" : "What is the capital city of Ethiopia?", "a" : "Addis Ababa", "v1" : "Yaounde", "v2" : "Mogadishu", "v3" : "Maseru" }
+{ "_id" : 91, "subject" : "capitals", "q" : "What is the capital city of Fiji?", "a" : "Suva", "v1" : "Monrovia", "v2" : "Saint George's", "v3" : "Male" }
+{ "_id" : 92, "subject" : "capitals", "q" : "What is the capital city of Gabon?", "a" : "Libreville", "v1" : "Banjul", "v2" : "Maseru", "v3" : "Monrovia" }
+{ "_id" : 93, "subject" : "capitals", "q" : "What is the capital city of The Gambia?", "a" : "Banjul", "v1" : "Moroni", "v2" : "Accra", "v3" : "Kingston" }
+{ "_id" : 94, "subject" : "capitals", "q" : "What is the capital city of Georgia?", "a" : "Tbilisi", "v1" : "Kingston", "v2" : "Conakry", "v3" : "Yerevan" }
+{ "_id" : 95, "subject" : "capitals", "q" : "What is the capital city of Ghana?", "a" : "Accra", "v1" : "Port-au-Prince", "v2" : "Monrovia", "v3" : "Maseru" }
+{ "_id" : 96, "subject" : "capitals", "q" : "What is the capital city of Grenada?", "a" : "Saint George's", "v1" : "Kigali", "v2" : "Bissau", "v3" : "Port-au-Prince" }
+{ "_id" : 97, "subject" : "capitals", "q" : "What is the capital city of Guatemala?", "a" : "Guatemala City", "v1" : "Tegucigalpa", "v2" : "Lima", "v3" : "Nicaragua" }
+{ "_id" : 98, "subject" : "capitals", "q" : "What is the capital city of Guinea?", "a" : "Conakry", "v1" : "Bissau", "v2" : "Port-au-Prince", "v3" : "Asmara" }
+{ "_id" : 99, "subject" : "capitals", "q" : "What is the capital city of Guinea-Bissau?", "a" : "Bissau", "v1" : "Caracas", "v2" : "Khartoum", "v3" : "Addis Ababa" }
+{ "_id" : 100, "subject" : "capitals", "q" : "What is the capital city of Guyana?", "a" : "Georgetown", "v1" : "Brazzaville", "v2" : "Accra", "v3" : "Malabo" }
+{ "_id" : 101, "subject" : "capitals", "q" : "What is the capital city of Haiti?", "a" : "Port-au-Prince", "v1" : "Astana", "v2" : "Kingston", "v3" : "Suva" }
+{ "_id" : 102, "subject" : "capitals", "q" : "What is the capital city of Honduras?", "a" : "Tegucigalpa", "v1" : "Malabo", "v2" : "Caracas", "v3" : "Astana" }
+{ "_id" : 103, "subject" : "capitals", "q" : "What is the capital city of India?", "a" : "New Delhi", "v1" : "Kolkata", "v2" : "Jakarta", "v3" : "Kuala Lumpur" }
+{ "_id" : 104, "subject" : "capitals", "q" : "What is the capital city of Indonesia?", "a" : "Jakarta", "v1" : "Kuala Lumpur", "v2" : "Singapore", "v3" : "Manilla" }
+{ "_id" : 105, "subject" : "capitals", "q" : "What is the capital city of Iran?", "a" : "Tehran", "v1" : "Caracas", "v2" : "Baghdad", "v3" : "Kabul" }
+{ "_id" : 106, "subject" : "capitals", "q" : "What is the capital city of Iraq?", "a" : "Baghdad", "v1" : "Tehran", "v2" : "Conakry", "v3" : "Kabul" }
+{ "_id" : 107, "subject" : "capitals", "q" : "What is the capital city of Israel?", "a" : "Jerusalem", "v1" : "Amman", "v2" : "Beirut", "v3" : "Tehran" }
+{ "_id" : 108, "subject" : "capitals", "q" : "What is the capital city of Jamaica?", "a" : "Kingston", "v1" : "Georgetown", "v2" : "Port-au-Prince", "v3" : "Nairobi" }
+{ "_id" : 109, "subject" : "capitals", "q" : "What is the capital city of Japan?", "a" : "Tokyo", "v1" : "Nairobi", "v2" : "Kyoto", "v3" : "Osaka" }
+{ "_id" : 110, "subject" : "capitals", "q" : "What is the capital city of Jordan?", "a" : "Amman", "v1" : "Accra", "v2" : "Dakar", "v3" : "Tehran" }
+{ "_id" : 111, "subject" : "capitals", "q" : "What is the capital city of Kazakhstan?", "a" : "Astana", "v1" : "Tehran", "v2" : "Kabul", "v3" : "Bishkek" }
+{ "_id" : 112, "subject" : "capitals", "q" : "What is the capital city of Kenya?", "a" : "Nairobi", "v1" : "Kingston", "v2" : "Brazzaville", "v3" : "Kigali" }
+{ "_id" : 113, "subject" : "capitals", "q" : "What is the capital city of Kiribati?", "a" : "Tarawa Atoll", "v1" : "Georgetown", "v2" : "Raratonga", "v3" : "Astana" }
+{ "_id" : 114, "subject" : "capitals", "q" : "What is the capital city of North Korea?", "a" : "Pyongyang", "v1" : "Seoul", "v2" : "Kyoto", "v3" : "Hanoi" }
+{ "_id" : 115, "subject" : "capitals", "q" : "What is the capital city of South Korea?", "a" : "Seoul", "v1" : "Pyongyang", "v2" : "Phnom Penh", "v3" : "Kathmandu" }
+{ "_id" : 116, "subject" : "capitals", "q" : "What is the capital city of Kuwait?", "a" : "Kuwait City", "v1" : "Jerusalem", "v2" : "Bishkek", "v3" : "Amman" }
+{ "_id" : 117, "subject" : "capitals", "q" : "What is the capital city of Kyrgyzstan?", "a" : "Bishkek", "v1" : "Tehran", "v2" : "Tripoli", "v3" : "Astana" }
+{ "_id" : 118, "subject" : "capitals", "q" : "What is the capital city of Laos?", "a" : "Vientiane", "v1" : "Phnom Penh", "v2" : "Bangkok", "v3" : "Naypydaw" }
+{ "_id" : 119, "subject" : "capitals", "q" : "What is the capital city of Lebanon?", "a" : "Beirut", "v1" : "Amman", "v2" : "Muscat", "v3" : "Bandar Seri Begawan" }
+{ "_id" : 120, "subject" : "capitals", "q" : "What is the capital city of Lesotho?", "a" : "Maseru", "v1" : "Brazzaville", "v2" : "Bamako", "v3" : "Kinsasha" }
+{ "_id" : 121, "subject" : "capitals", "q" : "What is the capital city of Liberia?", "a" : "Monrovia", "v1" : "Kigali", "v2" : "Abuja", "v3" : "Yamoussoukro" }
+{ "_id" : 122, "subject" : "capitals", "q" : "What is the capital city of Libya?", "a" : "Tripoli", "v1" : "Accra", "v2" : "Damascus", "v3" : "Rabat" }
+{ "_id" : 123, "subject" : "capitals", "q" : "What is the capital city of Madagascar?", "a" : "Antananarivo", "v1" : "Caracas", "v2" : "Windhoek", "v3" : "Port Louis" }
+{ "_id" : 124, "subject" : "capitals", "q" : "What is the capital city of Malawi?", "a" : "Lilongwe", "v1" : "Kigali", "v2" : "Kingston", "v3" : "Naypydaw" }
+{ "_id" : 125, "subject" : "capitals", "q" : "What is the capital city of Malaysia?", "a" : "Kuala Lumpur", "v1" : "Putrajaya", "v2" : "Manilla", "v3" : "Jakarta" }
+{ "_id" : 126, "subject" : "capitals", "q" : "What is the capital city of Maldives?", "a" : "Male", "v1" : "Tegucigalpa", "v2" : "Colombo", "v3" : "Victoria" }
+{ "_id" : 127, "subject" : "capitals", "q" : "What is the capital city of Mali?", "a" : "Bamako", "v1" : "Accra", "v2" : "Conakry", "v3" : "Brazzaville" }
+{ "_id" : 128, "subject" : "capitals", "q" : "What is the capital city of Malta?", "a" : "Valletta", "v1" : "Vaduz", "v2" : "Nicosia", "v3" : "Athens" }
+{ "_id" : 129, "subject" : "capitals", "q" : "What is the capital city of Marshall Islands?", "a" : "Majuro", "v1" : "Victoria", "v2" : "Male", "v3" : "Tarawa Atoll" }
+{ "_id" : 130, "subject" : "capitals", "q" : "What is the capital city of Mauritania?", "a" : "Nouakchott", "v1" : "Tehran", "v2" : "Port Louis", "v3" : "Accra" }
+{ "_id" : 131, "subject" : "capitals", "q" : "What is the capital city of Mauritius?", "a" : "Port Louis", "v1" : "Nouakchott", "v2" : "Kingston", "v3" : "Nuku'alofa" }
+{ "_id" : 132, "subject" : "capitals", "q" : "What is the capital city of Mexico?", "a" : "Mexico City", "v1" : "Montevideo", "v2" : "Caracas", "v3" : "Lima" }
+{ "_id" : 133, "subject" : "capitals", "q" : "What is the capital city Federated States of Micronesia?", "a" : "Palikir", "v1" : "Alofi", "v2" : "Raratonga", "v3" : "Apia" }
+{ "_id" : 134, "subject" : "capitals", "q" : "What is the capital city of Mongolia?", "a" : "Ulaanbaatar", "v1" : "Astana", "v2" : "Khartoum", "v3" : "Kathmandu" }
+{ "_id" : 135, "subject" : "capitals", "q" : "What is the capital city of Morocco?", "a" : "Rabat", "v1" : "Cairo", "v2" : "Nairobi", "v3" : "Eritreea" }
+{ "_id" : 136, "subject" : "capitals", "q" : "What is the capital city of Mozambique?", "a" : "Maputo", "v1" : "Kigali", "v2" : "Accra", "v3" : "Mogadishu" }
+{ "_id" : 137, "subject" : "capitals", "q" : "What is the capital city of Myanmar (Burma)?", "a" : "Naypyidaw", "v1" : "Seoul", "v2" : "Vientiane", "v3" : "Kathmandu" }
+{ "_id" : 138, "subject" : "capitals", "q" : "What is the capital city of Namibia?", "a" : "Windhoek", "v1" : "Mogadishu", "v2" : "Durban", "v3" : "Kingston" }
+{ "_id" : 139, "subject" : "capitals", "q" : "What is the capital city of Nauru?", "a" : "none", "v1" : "Mbabane", "v2" : "Alofi", "v3" : "Port Moresby" }
+{ "_id" : 140, "subject" : "capitals", "q" : "What is the capital city of Nepal?", "a" : "Kathmandu", "v1" : "Georgetown", "v2" : "Vientiane", "v3" : "Bangkok" }
+{ "_id" : 141, "subject" : "capitals", "q" : "What is the capital city of New Zealand?", "a" : "Wellington", "v1" : "Georgetown", "v2" : "Auckland", "v3" : "Christchurch" }
+{ "_id" : 142, "subject" : "capitals", "q" : "What is the capital city of Nicaragua?", "a" : "Managua", "v1" : "Tegucigalpa", "v2" : "Conakry", "v3" : "Santiago" }
+{ "_id" : 143, "subject" : "capitals", "q" : "What is the capital city of Niger?", "a" : "Niamey", "v1" : "Khartoum", "v2" : "Abuja", "v3" : "Rabat" }
+{ "_id" : 144, "subject" : "capitals", "q" : "What is the capital city of Nigeria?", "a" : "Abuja", "v1" : "Accra", "v2" : "Niamey", "v3" : "Yaounde" }
+{ "_id" : 145, "subject" : "capitals", "q" : "What is the capital city of Oman?", "a" : "Muscat", "v1" : "Rabat", "v2" : "Amman", "v3" : "Khartoum" }
+{ "_id" : 146, "subject" : "capitals", "q" : "What is the capital city of Pakistan?", "a" : "Islamabad", "v1" : "Baghdad", "v2" : "Kabul", "v3" : "Karachi" }
+{ "_id" : 147, "subject" : "capitals", "q" : "What is the capital city of Palau?", "a" : "Melekeok", "v1" : "Kigali", "v2" : "Nuku'alofa", "v3" : "Caracas" }
+{ "_id" : 148, "subject" : "capitals", "q" : "What is the capital city of Panama?", "a" : "Panama City", "v1" : "Managua", "v2" : "Lima", "v3" : "Montevideo" }
+{ "_id" : 149, "subject" : "capitals", "q" : "What is the capital city of Papua New Guinea?", "a" : "Port Moresby", "v1" : "Kingston", "v2" : "Port Louis", "v3" : "Port-au-Prince" }
+{ "_id" : 150, "subject" : "capitals", "q" : "What is the capital city of Paraguay?", "a" : "Asuncion", "v1" : "Montevideo", "v2" : "Santiago", "v3" : "Sao Paolo" }
+{ "_id" : 151, "subject" : "capitals", "q" : "What is the capital city of Peru?", "a" : "Lima", "v1" : "Caracas", "v2" : "Santiago", "v3" : "Buenos Aires" }
+{ "_id" : 152, "subject" : "capitals", "q" : "What is the capital city of Philippines?", "a" : "Manila", "v1" : "Jakarta", "v2" : "Port Moresby", "v3" : "Kuala Lumpur" }
+{ "_id" : 153, "subject" : "capitals", "q" : "What is the capital city of Qatar?", "a" : "Doha", "v1" : "Amman", "v2" : "Rabat", "v3" : "Dubai" }
+{ "_id" : 154, "subject" : "capitals", "q" : "What is the capital city of Rwanda?", "a" : "Kigali", "v1" : "Brazzaville", "v2" : "Kinsasha", "v3" : "Windhoek" }
+{ "_id" : 155, "subject" : "capitals", "q" : "What is the capital city of Saint Kitts and Nevis?", "a" : "Basseterre", "v1" : "Khartoum", "v2" : "Alofi", "v3" : "Port Louis" }
+{ "_id" : 156, "subject" : "capitals", "q" : "What is the capital city of Saint Lucia?", "a" : "Castries", "v1" : "Tegucigalpa", "v2" : "Montevideo", "v3" : "Basseterre" }
+{ "_id" : 157, "subject" : "capitals", "q" : "What is the capital city of Saint Vincent and the Grenadines?", "a" : "Kingstown", "v1" : "Dushanbe", "v2" : "Conakry", "v3" : "Victoria" }
+{ "_id" : 158, "subject" : "capitals", "q" : "What is the capital city of Samoa?", "a" : "Apia", "v1" : "Georgetown", "v2" : "Raratonga", "v3" : "Alofi" }
+{ "_id" : 159, "subject" : "capitals", "q" : "What is the capital city of San Marino?", "a" : "San Marino", "v1" : "Montevideo", "v2" : "Saint Tropez", "v3" : "Nice" }
+{ "_id" : 160, "subject" : "capitals", "q" : "What is the capital city of Sao Tome and Principe?", "a" : "Sao Tome", "v1" : "Khartoum", "v2" : "Sao Paolo", "v3" : "Basseterre" }
+{ "_id" : 161, "subject" : "capitals", "q" : "What is the capital city of Saudi Arabia?", "a" : "Riyadh", "v1" : "Tehran", "v2" : "Dubai", "v3" : "Amman" }
+{ "_id" : 162, "subject" : "capitals", "q" : "What is the capital city of Senegal?", "a" : "Dakar", "v1" : "Kingston", "v2" : "Yaounde", "v3" : "Bissau" }
+{ "_id" : 163, "subject" : "capitals", "q" : "What is the capital city of Seychelles?", "a" : "Victoria", "v1" : "Kingston", "v2" : "Montevideo", "v3" : "Port Moresby" }
+{ "_id" : 164, "subject" : "capitals", "q" : "What is the capital city of Sierra Leone?", "a" : "Freetown", "v1" : "Dushanbe", "v2" : "Port Moresby", "v3" : "Kingston" }
+{ "_id" : 165, "subject" : "capitals", "q" : "What is the capital city of Singapore?", "a" : "Singapore", "v1" : "Caracas", "v2" : "Manilla", "v3" : "Kuala Lumpur" }
+{ "_id" : 166, "subject" : "capitals", "q" : "What is the capital city of Solomon Islands?", "a" : "Honiara", "v1" : "Alofi", "v2" : "Apia", "v3" : "Honolulu" }
+{ "_id" : 167, "subject" : "capitals", "q" : "What is the capital city of Somalia?", "a" : "Mogadishu", "v1" : "Dushanbe", "v2" : "Mbabane", "v3" : "Addis Ababa" }
+{ "_id" : 168, "subject" : "capitals", "q" : "What is the capital city of South Africa?", "a" : "Pretoria", "v1" : "Windhoek", "v2" : "Gaborone", "v3" : "Harare" }
+{ "_id" : 169, "subject" : "capitals", "q" : "What is the capital city of South Sudan?", "a" : "Juba", "v1" : "Dushanbe", "v2" : "Mbabane", "v3" : "Khartoum" }
+{ "_id" : 170, "subject" : "capitals", "q" : "What is the capital city of Sri Lanka?", "a" : "Colombo", "v1" : "Chennai", "v2" : "Islamabad", "v3" : "Kuala Lumpur" }
+{ "_id" : 171, "subject" : "capitals", "q" : "What is the capital city of Sudan?", "a" : "Khartoum", "v1" : "Brazzaville", "v2" : "Juba", "v3" : "Dakar" }
+{ "_id" : 172, "subject" : "capitals", "q" : "What is the capital city of Suriname?", "a" : "Paramaribo", "v1" : "Caracas", "v2" : "Cayenne", "v3" : "Georgetown" }
+{ "_id" : 173, "subject" : "capitals", "q" : "What is the capital city of Swaziland?", "a" : "Mbabane", "v1" : "Georgetown", "v2" : "Brazzaville", "v3" : "Conakry" }
+{ "_id" : 174, "subject" : "capitals", "q" : "What is the capital city of Syria?", "a" : "Damascus", "v1" : "Tripoli", "v2" : "Rabat", "v3" : "Cairo" }
+{ "_id" : 175, "subject" : "capitals", "q" : "What is the capital city of Taiwan?", "a" : "Taipei", "v1" : "Hong-Kong", "v2" : "Shenzhen", "v3" : "Bangkok" }
+{ "_id" : 176, "subject" : "capitals", "q" : "What is the capital city of Tajikistan?", "a" : "Dushanbe", "v1" : "Tehran", "v2" : "Astana", "v3" : "Bishkek" }
+{ "_id" : 177, "subject" : "capitals", "q" : "What is the capital city of Tanzania?", "a" : "Dar es Salaam", "v1" : "Harare", "v2" : "Gaborone", "v3" : "Libreville" }
+{ "_id" : 178, "subject" : "capitals", "q" : "What is the capital city of Thailand?", "a" : "Bangkok", "v1" : "Vientiane", "v2" : "Phuket", "v3" : "Chiang Mai" }
+{ "_id" : 179, "subject" : "capitals", "q" : "What is the capital city of Togo?", "a" : "Lome", "v1" : "Nuku'alofa", "v2" : "Alofi", "v3" : "Apia" }
+{ "_id" : 180, "subject" : "capitals", "q" : "What is the capital city of Tonga?", "a" : "Nuku'alofa", "v1" : "Montevideo", "v2" : "Kingston", "v3" : "Raratonga" }
+{ "_id" : 181, "subject" : "capitals", "q" : "What is the capital city of Trinidad and Tobago?", "a" : "Port-of-Spain", "v1" : "Port-au-Prince", "v2" : "Port Louis", "v3" : "Port Moresby" }
+{ "_id" : 182, "subject" : "capitals", "q" : "What is the capital city of Tunisia?", "a" : "Tunis", "v1" : "Dushanbe", "v2" : "Algiers", "v3" : "Rabat" }
+{ "_id" : 183, "subject" : "capitals", "q" : "What is the capital city of Turkmenistan?", "a" : "Ashgabat", "v1" : "Astana", "v2" : "Bishkek", "v3" : "Dushanbe" }
+{ "_id" : 184, "subject" : "capitals", "q" : "What is the capital city of Tuvalu?", "a" : "Funafuti", "v1" : "Alofi", "v2" : "Nuku'alofa", "v3" : "Apia" }
+{ "_id" : 185, "subject" : "capitals", "q" : "What is the capital city of Uganda?", "a" : "Kampala", "v1" : "Conakry", "v2" : "Kigali", "v3" : "Kinsasha" }
+{ "_id" : 186, "subject" : "capitals", "q" : "What is the capital city of United Arab Emirates?", "a" : "Abu Dhabi", "v1" : "Abuja", "v2" : "Amman", "v3" : "Muscat" }
+{ "_id" : 187, "subject" : "capitals", "q" : "What is the capital city of United States of America?", "a" : "Washington D.C.", "v1" : "New York", "v2" : "Philladelphia", "v3" : "San Francisco" }
+{ "_id" : 188, "subject" : "capitals", "q" : "What is the capital city of Uruguay?", "a" : "Montevideo", "v1" : "Asuncion", "v2" : "Havana", "v3" : "Bogota" }
+{ "_id" : 189, "subject" : "capitals", "q" : "What is the capital city of Uzbekistan?", "a" : "Tashkent", "v1" : "Sucre", "v2" : "Bishkek", "v3" : "Dushanbe" }
+{ "_id" : 190, "subject" : "capitals", "q" : "What is the capital city of Vanuatu?", "a" : "Port-Vila", "v1" : "Mbabane", "v2" : "Nuku'alofa", "v3" : "Lome" }
+{ "_id" : 191, "subject" : "capitals", "q" : "What is the capital city of Venezuela?", "a" : "Caracas", "v1" : "Bogota", "v2" : "Sucre", "v3" : "Buenos Aires" }
+{ "_id" : 192, "subject" : "capitals", "q" : "What is the capital city of Vietnam?", "a" : "Hanoi", "v1" : "Pyongyang", "v2" : "Vientiane", "v3" : "Phnom Penh" }
+{ "_id" : 193, "subject" : "capitals", "q" : "What is the capital city of Yemen?", "a" : "Sanaa", "v1" : "Amman", "v2" : "Damascus", "v3" : "Dubai" }
+{ "_id" : 194, "subject" : "capitals", "q" : "What is the capital city of Zambia?", "a" : "Lusaka", "v1" : "Mbabane", "v2" : "Conakry", "v3" : "Nuku'alofa" }
+{ "_id" : 195, "subject" : "capitals", "q" : "What is the capital city of Zimbabwe?", "a" : "Harare", "v1" : "Georgetown", "v2" : "Gaborone", "v3" : "Windhoek" }
