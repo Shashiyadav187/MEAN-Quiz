@@ -43,6 +43,7 @@ myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeou
 
     //gets the questions from the database
     function getQuestion() {
+        $scope.hideUntilLoaded = true;
         resetQuestion();
         $scope.currentQuestionNo++;
         //HTTP GET question from the DB
@@ -56,6 +57,7 @@ myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeou
             //  we put the the correct answer together with the three wrong ones in an array and we shuffle it
             //  so you the right answer is in a different position every time you get the same question
             $scope.data.answers = Shuffle.randomizeArray([question.a, question.v1, question.v2, question.v3]);
+            $scope.hideUntilLoaded = false;
         });
         //this is the countdown timer; it starts when the questions is loaded; it stops when the time runs out or when you pick an answer
         myTimer = $interval(function () {

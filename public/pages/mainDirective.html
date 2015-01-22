@@ -1,36 +1,38 @@
-﻿<div class="text-center">
-    Question {{currentQuestionNo}} of {{numberOfQuestions}}
-</div>
+<div ng-hide="hideUntilLoaded">
+    <div class="text-center">
+        Question {{currentQuestionNo}} of {{numberOfQuestions}}
+    </div>
 
-<div class="row biggerHeight vertical-align">
-    <div class="col-xs-8 col-xs-offset-2 text-center">
-        {{data.q}}</div>
-</div>
+    <div class="row biggerHeight vertical-align">
+        <div class="col-xs-8 col-xs-offset-2 text-center">
+            {{data.q}}</div>
+    </div>
 
-<div class="row smallerHeight autoMargin">
-    <div class="col-sm-6 ">
-        <div ng-class="elementInfo.answerClass[0]" ng-click="validateAnswer(0)">
-            {{data.answers[0]}}</div>
+    <div class="row smallerHeight autoMargin">
+        <div class="col-sm-6 ">
+            <div ng-class="elementInfo.answerClass[0]" ng-click="validateAnswer(0)">
+                {{data.answers[0]}}</div>
+        </div>
+        <div class="col-sm-6 ">
+            <div ng-class="elementInfo.answerClass[1]" ng-click="validateAnswer(1)">
+                {{data.answers[1]}}</div>
+        </div>
+        <div class="col-sm-6 ">
+            <div ng-class="elementInfo.answerClass[2]" ng-click="validateAnswer(2)">
+                {{data.answers[2]}}</div>
+        </div>
+        <div class="col-sm-6 ">
+            <div ng-class="elementInfo.answerClass[3]" ng-click="validateAnswer(3)">
+                {{data.answers[3]}}</div>
+        </div>
     </div>
-    <div class="col-sm-6 ">
-        <div ng-class="elementInfo.answerClass[1]" ng-click="validateAnswer(1)">
-            {{data.answers[1]}}</div>
-    </div>
-    <div class="col-sm-6 ">
-        <div ng-class="elementInfo.answerClass[2]" ng-click="validateAnswer(2)">
-            {{data.answers[2]}}</div>
-    </div>
-    <div class="col-sm-6 ">
-        <div ng-class="elementInfo.answerClass[3]" ng-click="validateAnswer(3)">
-            {{data.answers[3]}}</div>
-    </div>
-</div>
-<div class="row timer text-center" ng-show="showTimer">
+    <div class="row timer text-center" ng-show="showTimer">
         {{timer}}
-</div>
+    </div>
 
-<div id="progressTimer"></div>
+    <div id="progressTimer"></div>
 
-<div class="col-sm-6 col-sm-offset-3 text-center">
-    Score: {{currentScore}}
+    <div class="col-sm-6 col-sm-offset-3 text-center">
+        Score: {{currentScore}}
+    </div>
 </div>
