@@ -7,23 +7,23 @@
         <div class="col-xs-8 col-xs-offset-2 text-center">
             {{data.q}}</div>
     </div>
-
+    
     <div class="row smallerHeight autoMargin">
-        <div class="col-sm-6 ">
-            <div ng-class="elementInfo.answerClass[0]" ng-click="validateAnswer(0)">
-                {{data.answers[0]}}</div>
+        <div class="col-sm-6 text-center ">
+            <div ng-class="elementInfo.answerClassNew[0]" ng-click="validateAnswer(0)">
+                <a class="fullWidth">{{data.answers[0]}}</a></div>
         </div>
-        <div class="col-sm-6 ">
-            <div ng-class="elementInfo.answerClass[1]" ng-click="validateAnswer(1)">
-                {{data.answers[1]}}</div>
+        <div class="col-sm-6 text-center ">
+            <div ng-class="elementInfo.answerClassNew[1]" ng-click="validateAnswer(1)">
+                <a class="fullWidth">{{data.answers[1]}}</a></div>
         </div>
-        <div class="col-sm-6 ">
-            <div ng-class="elementInfo.answerClass[2]" ng-click="validateAnswer(2)">
-                {{data.answers[2]}}</div>
+        <div class="col-sm-6 text-center ">
+            <div ng-class="elementInfo.answerClassNew[2]" ng-click="validateAnswer(2)">
+                <a class="fullWidth">{{data.answers[2]}}</a></div>
         </div>
-        <div class="col-sm-6 ">
-            <div ng-class="elementInfo.answerClass[3]" ng-click="validateAnswer(3)">
-                {{data.answers[3]}}</div>
+        <div class="col-sm-6 text-center ">
+            <div ng-class="elementInfo.answerClassNew[3]" ng-click="validateAnswer(3)">
+                <a class="fullWidth">{{data.answers[3]}}</a></div>
         </div>
     </div>
     <div class="row timer text-center" ng-show="showTimer">
