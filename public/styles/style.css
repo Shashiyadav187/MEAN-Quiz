@@ -9,8 +9,7 @@ body {
     height: 100%;
 }
 .container {
-    /*height: 85vh;*/
-    /* border: solid 1px;*/
+
 }
 .biggerHeight {
     height: 50%;
@@ -20,8 +19,7 @@ body {
     align-items: center;
 }
 .top10 {
-   /* margin-top: 5%;
-    margin-bottom: 5%; */
+
 }
 .autoMargin {
     margin: 20% 2.5% 20% 2.5%;
