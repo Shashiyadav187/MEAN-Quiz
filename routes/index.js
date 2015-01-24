@@ -17,7 +17,7 @@ router.get('/getUserScore', function(req, res){
 
 router.get('/getQuestion', function(req, res){
     var db = req.db;
-    var i = getRandomInt(0,43);
+    var i = getRandomInt(0,195);
     db.collection('questions').findOne({_id: i}, function(err, result) {
         res.send(result);
     });
