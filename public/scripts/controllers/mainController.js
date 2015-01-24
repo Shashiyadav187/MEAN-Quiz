@@ -32,7 +32,8 @@ myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeou
     function resetQuestion() {
         $scope.data = {};
         $scope.elementInfo = {
-            answerClass: [" answerBtn btn btn-primary", " answerBtn btn btn-primary", " answerBtn btn btn-primary", " answerBtn btn btn-primary"]
+            answerClass: [" answerBtn btn btn-primary", " answerBtn btn btn-primary", " answerBtn btn btn-primary", " answerBtn btn btn-primary"],
+            answerClassNew: [" chunky chunky-primary", " chunky chunky-primary", " chunky chunky-primary", " chunky chunky-primary"]
         };
         $scope.timer = 5;
         $scope.seconds = 5;
@@ -43,6 +44,7 @@ myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeou
 
     //gets the questions from the database
     function getQuestion() {
+        $scope.hideUntilLoaded = true;
         resetQuestion();
         $scope.currentQuestionNo++;
         //HTTP GET question from the DB
@@ -56,6 +58,7 @@ myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeou
             //  we put the the correct answer together with the three wrong ones in an array and we shuffle it
             //  so you the right answer is in a different position every time you get the same question
             $scope.data.answers = Shuffle.randomizeArray([question.a, question.v1, question.v2, question.v3]);
+            $scope.hideUntilLoaded = false;
         });
         //this is the countdown timer; it starts when the questions is loaded; it stops when the time runs out or when you pick an answer
         myTimer = $interval(function () {
@@ -73,21 +76,25 @@ myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeou
         $scope.showTimer = false;
         $interval.cancel(myTimer);
         $scope.elementInfo.answerClass[ans] += " btn-warning";
+        $scope.elementInfo.answerClassNew[ans] += " pressed";
         for (var i = 0; i < 4; i++) {
             $scope.elementInfo.answerClass[i] += " disabled";
+            $scope.elementInfo.answerClassNew[i] += " chunky-disabled";
         }
         var timer = $timeout(function () {
             for (var i = 0; i < 4; i++) {
                 if (ans == i) {
                     if ($scope.data.answers[ans] == correctAnswer) {
                         $scope.elementInfo.answerClass[ans] = " answerBtn btn btn-primary btn-success disabled ";
+                        $scope.elementInfo.answerClassNew[ans] = " chunky chunky-success chunky-disabled ";
                         $scope.currentScore += 10;
                     } else {
                         $scope.elementInfo.answerClass[ans] += " btn-danger";
+                        $scope.elementInfo.answerClassNew[ans] = "chunky chunky-danger chunky-disabled";
                     }
                 } else if ($scope.data.answers[i] == correctAnswer) {
                     $scope.elementInfo.answerClass[i] += " btn-success";
-
+                    $scope.elementInfo.answerClassNew[i] = "chunky chunky-success chunky-disabled";
                 }
             }
         }, 1000);

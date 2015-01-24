@@ -3,16 +3,17 @@
 <head>   
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
     <link href="styles/spinner.css" rel="stylesheet" type="text/css" />
+    <link href="styles/buttons.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 </head>
 <body>
-    <div ng-controller="mainController">
-        <div class="container col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 top10">
+    <div ng-controller="mainController" class="mainContainer">
+        <div class="container col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 top10 fullHeight gradient noPadding">
             <div class="navbar navbar-inverse black">
                 <a href="#"><img src="images/home152.png" class="navbar-button"/></a>
                 <a href="#/contact"><img src="images/email15.png" class="navbar-button"/></a>
             </div>
-            <div ng-view></div>
+            <div ng-view ng-cloak></div>
         </div>
     </div>
     <script src="libraries/angular.min.js" type="text/javascript"></script>
