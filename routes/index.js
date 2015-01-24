@@ -1,4 +1,4 @@
-var nodemailer = require('nodemailer');
+var nodemailer = require("nodemailer");
 var express = require('express');
 var router = express.Router();
 
@@ -58,14 +58,14 @@ router.post('/postContactUs', function(req, res) {
     var smtpTransport = nodemailer.createTransport("SMTP",{
        service: "Yahoo",  // sets automatically host, port and connection security settings
        auth: {
-           user: "*********",//insert the email addrss that you want to use for sending emails
-           pass: "*********" //insert password 
+           user: "webnodemailer@yahoo.com",
+           pass: "nodejs2015"
        }
     });
     
     smtpTransport.sendMail({  //email options
-       from: "First Last <******@yahoo.com>", // sender address. 
-       to: "First Last <*****@yahoo.com>", // receiver
+       from: "First Last <webnodemailer@yahoo.com>", // sender address.  Must be the same as authenticated user if using Gmail.
+       to: "First Last <webnodemailer@yahoo.com>", // receiver
        subject: req.body.contact.name +': ' + req.body.contact.email, // subject
        text: req.body.contact.message // body
     }, function(error, response){  //callback
