@@ -8,7 +8,6 @@ var mongoskin = require('mongoskin');
 //**********YOUR DB BELOW************
 //*** Connect to your database; I used MongoDB hosted on MongoLab
 var db = mongoskin.db('mongodb://<user>:<password>@ds*****.mongolab.com:*****/maindb', {native_parser:true});
-//var db = mongoskin.db("mongodb://localhost:27017/maindb", {native_parser:true});
 
 var api = require('./routes/api');
 var mailerRoute = require('./routes/mailer');
