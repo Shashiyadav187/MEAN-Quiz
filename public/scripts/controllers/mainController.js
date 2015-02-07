@@ -1,6 +1,4 @@
-myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeout', '$interval', '$location', '$http', function ($scope, DataService, Shuffle, $timeout, $interval, $location, $http) {
-    
-    
+myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeout', '$interval', '$http','$state', function ($scope, DataService, Shuffle, $timeout, $interval, $http, $state) {
     
     $scope.player = {};
     $scope.numberOfQuestions = 0;
@@ -107,7 +105,7 @@ myApp.controller('mainController', ['$scope', 'DataService', 'Shuffle', '$timeou
             //if no questions left, then the game ends and the current score is sent to the DB
             $timeout(function(){
                 $scope.postScore($scope.player.name, $scope.currentScore);
-                $location.path('/endgame');
+                $state.go('endgame');
                 $scope.getHighScore();
             }, 2000);
         }

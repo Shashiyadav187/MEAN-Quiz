@@ -12,7 +12,7 @@
             <button type="button" class="btn btn-default" ng-click="setNumberOfQuestions(15)">15</button>
         </div>
         <div>
-            <a href="#/main " class="btn btn-info btn-lg some-margins black-button" ng-click='startGame()' ng-disabled="!numberOfQuestions || !player.name ">START</a>
+            <a ui-sref="main" class="btn btn-info btn-lg some-margins black-button" ng-click='startGame()' ng-disabled="!numberOfQuestions || !player.name ">START</a>
         </div>
     </form>
 </div>
