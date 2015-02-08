@@ -1,7 +1,0 @@
-game_data/*
-game_data
-.gitattributes
-mongod
-npm-debug.log
-node_modules/*
-node_modules
