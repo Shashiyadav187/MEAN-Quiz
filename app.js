@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var mongoskin = require('mongoskin');
 //**********YOUR DB BELOW************
 //*** Connect to your database; I used MongoDB hosted on MongoLab
-var db = mongoskin.db('mongodb://rococtz:nodejs2015@ds049170.mongolab.com:49170/maindb', {native_parser:true});
+var db = mongoskin.db('mongodb://****:****@*****.mongolab.com:*****/maindb', {native_parser:true});
 
 var api = require('./routes/api');
 var mailerRoute = require('./routes/mailer');
