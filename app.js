@@ -6,15 +6,16 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoskin = require('mongoskin');
 //**********YOUR DB BELOW************
-//var db = mongoskin.db('mongodb://@localhost:27017/mydb', {native_parser:true});
-var db = mongoskin.db('mongodb://rococtz:nodejs2015@ds049170.mongolab.com:49170/maindb', {native_parser:true});
-var routes = require('./routes/index');
+//*** Connect to your database; I used MongoDB hosted on MongoLab
+var db = mongoskin.db('mongodb://******:******@******.mongolab.com:******/maindb', {native_parser:true});
 
+var api = require('./routes/api');
+var mailerRoute = require('./routes/mailer');
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'html');
+app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -29,14 +30,9 @@ app.use(function(req,res,next){
     req.db = db;
     next();
 });
-app.use('/', routes);
-app.use('/getQuestions', routes);
-app.use('/postData', routes);
-app.use('/postScore', routes);
-app.use('/getScore', routes);
-app.use('/getUserScore', routes);
-app.use('/getHighScore', routes);
-app.use('/getQuestion', routes);
+
+api(app);
+mailerRoute(app);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
